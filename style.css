@@ -15,20 +15,25 @@ body{
     max-width: 700px;
     text-align: center;
     color: white;
-    /* text-align: center; */
     padding-top: 174px;
     padding-bottom: 174px;
 } 
+#header-text{
+    color: white;
+}
 #heading{
     font-weight: 700;
     font-size: 45px;
     padding-bottom: 20px;
 }
-#heading-peragraph{
+/***************All text ***************/
+.text{
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    color: #B3B3B3;
+    align-items: center;
 }
 .donate-btn{
     padding: 16px 12px;
@@ -36,19 +41,14 @@ body{
     border-radius: 5px;
 }
 
-/* Donation amount part */
+/***************** Donation amount part ******************/
 
 .donate-today{
     margin: auto;
-    max-width: 700px;
+    max-width: 750px;
     text-align: center;
     margin-top: 206px;
-}
-.donation-text{
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-    color: #707070;
+    margin-bottom: 206px;
 }
 .donation-plan{
     display: flex;
@@ -70,16 +70,74 @@ body{
     font-size: 30px;
     text-align: center;
 }
-.other-amount-text{
+/* .other-amount-text{
     margin-top: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #B3B3B3;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     text-align: center;
-}
+} */
 hr{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+/***************plan card details  ****************/
+
+.donate-plan{
+    margin: auto;
+    margin-bottom: 130px;
+}
+.plan-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 30px;
+    text-align: center;
+    color: #121212;
+}
+.card-heading{
+    margin-left: 375px;
+    margin-right: 375px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    color: #B3B3B3;
+    text-align: ;
+}
+.plan-card{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.one-third{
+    width: 360px;
+    height: 352px;
+    background: rgba(79, 157, 166, 0.1);
+    padding: 50px 20px 0px 50px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+/*************Footer  ***************/
+.footer{
+    background: #0B0D17;
+    text-align: center;
+    height: 200px;
+}
+.footer h3{
+    padding-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+   
+}
+.footer p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
 }
